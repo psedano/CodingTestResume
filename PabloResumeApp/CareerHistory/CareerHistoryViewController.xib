@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CareerHistoryViewController" customModule="PabloResumeApp" customModuleProvider="target">
+            <connections>
+                <outlet property="backButton" destination="FAK-5D-4o7" id="ufb-Sz-Xfw"/>
+                <outlet property="historyTable" destination="VXq-Qi-UcE" id="ofL-3N-Msf"/>
+                <outlet property="view" destination="iN0-l3-epB" id="O9W-OX-fvG"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="VXq-Qi-UcE">
+                    <rect key="frame" x="20" y="104" width="374" height="738"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FAK-5D-4o7" customClass="BackButton" customModule="PabloResumeApp" customModuleProvider="target">
+                    <rect key="frame" x="18" y="62" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="97e-5S-mBK"/>
+                        <constraint firstAttribute="width" constant="40" id="psy-NN-a7r"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="backButtonTapped:" destination="-1" eventType="touchUpInside" id="Npx-2Q-Eas"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="VXq-Qi-UcE" secondAttribute="trailing" constant="20" id="0Ki-zN-J20"/>
+                <constraint firstItem="VXq-Qi-UcE" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="60" id="4WI-e4-Wmy"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="VXq-Qi-UcE" secondAttribute="bottom" constant="20" id="5Jf-yQ-CfP"/>
+                <constraint firstItem="FAK-5D-4o7" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="18" id="Zob-cT-d9r"/>
+                <constraint firstItem="FAK-5D-4o7" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="18" id="lQg-nr-yHE"/>
+                <constraint firstItem="VXq-Qi-UcE" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="vbf-Ad-HfC"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+        </view>
+    </objects>
+</document>

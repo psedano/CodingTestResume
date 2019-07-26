@@ -8,12 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		CAD9B3FA22EA5EFB00F606E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9B3F922EA5EFB00F606E9 /* AppDelegate.swift */; };
-		CAD9B3FC22EA5EFB00F606E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9B3FB22EA5EFB00F606E9 /* ViewController.swift */; };
-		CAD9B3FF22EA5EFB00F606E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD9B3FD22EA5EFB00F606E9 /* Main.storyboard */; };
+		CAD9B3FC22EA5EFB00F606E9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9B3FB22EA5EFB00F606E9 /* HomeViewController.swift */; };
 		CAD9B40122EA5EFC00F606E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD9B40022EA5EFC00F606E9 /* Assets.xcassets */; };
 		CAD9B40422EA5EFC00F606E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD9B40222EA5EFC00F606E9 /* LaunchScreen.storyboard */; };
 		CAD9B40F22EA5EFC00F606E9 /* PabloResumeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9B40E22EA5EFC00F606E9 /* PabloResumeAppTests.swift */; };
 		CAD9B41A22EA5EFC00F606E9 /* PabloResumeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9B41922EA5EFC00F606E9 /* PabloResumeAppUITests.swift */; };
+		CAD9B42922EA5F3B00F606E9 /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9B42822EA5F3B00F606E9 /* XibView.swift */; };
+		CAD9B42C22EA600700F606E9 /* UIView+ConstraintsToFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9B42B22EA600700F606E9 /* UIView+ConstraintsToFit.swift */; };
+		CAD9B42E22EA606100F606E9 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAD9B42D22EA606100F606E9 /* HomeViewController.xib */; };
+		CAD9B43222EA62FB00F606E9 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9B43122EA62FB00F606E9 /* HeaderView.swift */; };
+		CAD9B43422EA630600F606E9 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAD9B43322EA630600F606E9 /* HeaderView.xib */; };
+		CAD9B43622EA640700F606E9 /* HeaderViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9B43522EA640700F606E9 /* HeaderViewViewModel.swift */; };
+		CAD9B43C22EA68BC00F606E9 /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CAD9B43822EA68BC00F606E9 /* Quicksand-Medium.ttf */; };
+		CAD9B43D22EA68BC00F606E9 /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CAD9B43922EA68BC00F606E9 /* Quicksand-Light.ttf */; };
+		CAD9B43E22EA68BC00F606E9 /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CAD9B43A22EA68BC00F606E9 /* Quicksand-Bold.ttf */; };
+		CAD9B43F22EA68BC00F606E9 /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CAD9B43B22EA68BC00F606E9 /* Quicksand-Regular.ttf */; };
+		CAD9B44122EA692300F606E9 /* HeaderViewConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9B44022EA692300F606E9 /* HeaderViewConstants.swift */; };
+		CAD9B44422EA72D300F606E9 /* ResumeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9B44322EA72D300F606E9 /* ResumeCell.swift */; };
+		CAD9B44622EA72DF00F606E9 /* ResumeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAD9B44522EA72DF00F606E9 /* ResumeCell.xib */; };
+		CAD9B44822EA7A4D00F606E9 /* ResumeCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9B44722EA7A4D00F606E9 /* ResumeCellViewModel.swift */; };
+		CAD9B44B22EA7DD100F606E9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9B44A22EA7DD100F606E9 /* DetailViewController.swift */; };
+		CAD9B44E22EA7DF900F606E9 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAD9B44D22EA7DF900F606E9 /* DetailViewController.xib */; };
+		CAD9B45022EA813E00F606E9 /* TransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9B44F22EA813E00F606E9 /* TransitionAnimation.swift */; };
+		CAD9B45322EA8C6A00F606E9 /* AnimationsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9B45222EA8C6A00F606E9 /* AnimationsHelper.swift */; };
+		CAD9B45522EA8E6500F606E9 /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9B45422EA8E6500F606E9 /* GlobalConstants.swift */; };
+		CAD9B45722EA8E8E00F606E9 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9B45622EA8E8E00F606E9 /* NetworkHelper.swift */; };
+		CAD9B45A22EA984D00F606E9 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9B45922EA984D00F606E9 /* HomeModel.swift */; };
+		CAD9B45C22EA9D6700F606E9 /* HomeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9B45B22EA9D6700F606E9 /* HomeConstants.swift */; };
+		CAD9B45E22EAA88800F606E9 /* DetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9B45D22EAA88800F606E9 /* DetailModel.swift */; };
+		CAD9B46022EAA8F000F606E9 /* DetaileViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9B45F22EAA8F000F606E9 /* DetaileViewViewModel.swift */; };
+		CAD9B46322EACAE400F606E9 /* HelloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9B46222EACAE400F606E9 /* HelloView.swift */; };
+		CAD9B46522EACB0F00F606E9 /* HelloView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAD9B46422EACB0F00F606E9 /* HelloView.xib */; };
+		CAD9B46822EAD20600F606E9 /* UIColor+ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9B46722EAD20600F606E9 /* UIColor+ColorExtension.swift */; };
+		CAD9B46B22EAD35700F606E9 /* CareerHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9B46A22EAD35700F606E9 /* CareerHistoryViewController.swift */; };
+		CAD9B46D22EAD38F00F606E9 /* CareerHistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAD9B46C22EAD38F00F606E9 /* CareerHistoryViewController.xib */; };
+		CAD9B46F22EAD56000F606E9 /* CareerHistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9B46E22EAD56000F606E9 /* CareerHistoryModel.swift */; };
+		CAD9B47122EAD56C00F606E9 /* CareerHistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9B47022EAD56C00F606E9 /* CareerHistoryViewModel.swift */; };
+		CAD9B47422EADBDD00F606E9 /* CareerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9B47322EADBDD00F606E9 /* CareerCell.swift */; };
+		CAD9B47622EADBED00F606E9 /* CareerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAD9B47522EADBED00F606E9 /* CareerCell.xib */; };
+		CAD9B47822EAEB6000F606E9 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9B47722EAEB6000F606E9 /* BackButton.swift */; };
+		CAD9B47A22EAEBF200F606E9 /* CareerHistoryConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9B47922EAEBF200F606E9 /* CareerHistoryConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +70,7 @@
 /* Begin PBXFileReference section */
 		CAD9B3F622EA5EFB00F606E9 /* PabloResumeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PabloResumeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAD9B3F922EA5EFB00F606E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CAD9B3FB22EA5EFB00F606E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CAD9B3FE22EA5EFB00F606E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAD9B3FB22EA5EFB00F606E9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CAD9B40022EA5EFC00F606E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAD9B40322EA5EFC00F606E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAD9B40522EA5EFC00F606E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +80,41 @@
 		CAD9B41522EA5EFC00F606E9 /* PabloResumeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PabloResumeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAD9B41922EA5EFC00F606E9 /* PabloResumeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PabloResumeAppUITests.swift; sourceTree = "<group>"; };
 		CAD9B41B22EA5EFC00F606E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD9B42822EA5F3B00F606E9 /* XibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibView.swift; sourceTree = "<group>"; };
+		CAD9B42B22EA600700F606E9 /* UIView+ConstraintsToFit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ConstraintsToFit.swift"; sourceTree = "<group>"; };
+		CAD9B42D22EA606100F606E9 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		CAD9B43122EA62FB00F606E9 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		CAD9B43322EA630600F606E9 /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		CAD9B43522EA640700F606E9 /* HeaderViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderViewViewModel.swift; sourceTree = "<group>"; };
+		CAD9B43822EA68BC00F606E9 /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Medium.ttf"; sourceTree = "<group>"; };
+		CAD9B43922EA68BC00F606E9 /* Quicksand-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Light.ttf"; sourceTree = "<group>"; };
+		CAD9B43A22EA68BC00F606E9 /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		CAD9B43B22EA68BC00F606E9 /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.ttf"; sourceTree = "<group>"; };
+		CAD9B44022EA692300F606E9 /* HeaderViewConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderViewConstants.swift; sourceTree = "<group>"; };
+		CAD9B44322EA72D300F606E9 /* ResumeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeCell.swift; sourceTree = "<group>"; };
+		CAD9B44522EA72DF00F606E9 /* ResumeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResumeCell.xib; sourceTree = "<group>"; };
+		CAD9B44722EA7A4D00F606E9 /* ResumeCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeCellViewModel.swift; sourceTree = "<group>"; };
+		CAD9B44A22EA7DD100F606E9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CAD9B44D22EA7DF900F606E9 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		CAD9B44F22EA813E00F606E9 /* TransitionAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionAnimation.swift; sourceTree = "<group>"; };
+		CAD9B45222EA8C6A00F606E9 /* AnimationsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsHelper.swift; sourceTree = "<group>"; };
+		CAD9B45422EA8E6500F606E9 /* GlobalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
+		CAD9B45622EA8E8E00F606E9 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		CAD9B45922EA984D00F606E9 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeModel.swift; path = PabloResumeApp/Home/HomeModel.swift; sourceTree = SOURCE_ROOT; };
+		CAD9B45B22EA9D6700F606E9 /* HomeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeConstants.swift; sourceTree = "<group>"; };
+		CAD9B45D22EAA88800F606E9 /* DetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModel.swift; sourceTree = "<group>"; };
+		CAD9B45F22EAA8F000F606E9 /* DetaileViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetaileViewViewModel.swift; sourceTree = "<group>"; };
+		CAD9B46222EACAE400F606E9 /* HelloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloView.swift; sourceTree = "<group>"; };
+		CAD9B46422EACB0F00F606E9 /* HelloView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelloView.xib; sourceTree = "<group>"; };
+		CAD9B46722EAD20600F606E9 /* UIColor+ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+ColorExtension.swift"; sourceTree = "<group>"; };
+		CAD9B46A22EAD35700F606E9 /* CareerHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerHistoryViewController.swift; sourceTree = "<group>"; };
+		CAD9B46C22EAD38F00F606E9 /* CareerHistoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CareerHistoryViewController.xib; sourceTree = "<group>"; };
+		CAD9B46E22EAD56000F606E9 /* CareerHistoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerHistoryModel.swift; sourceTree = "<group>"; };
+		CAD9B47022EAD56C00F606E9 /* CareerHistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerHistoryViewModel.swift; sourceTree = "<group>"; };
+		CAD9B47322EADBDD00F606E9 /* CareerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerCell.swift; sourceTree = "<group>"; };
+		CAD9B47522EADBED00F606E9 /* CareerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CareerCell.xib; sourceTree = "<group>"; };
+		CAD9B47722EAEB6000F606E9 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		CAD9B47922EAEBF200F606E9 /* CareerHistoryConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerHistoryConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +165,12 @@
 		CAD9B3F822EA5EFB00F606E9 /* PabloResumeApp */ = {
 			isa = PBXGroup;
 			children = (
+				CAD9B46922EAD34300F606E9 /* CareerHistory */,
+				CAD9B46122EACACB00F606E9 /* Hello */,
+				CAD9B44922EA7DBC00F606E9 /* Detail */,
+				CAD9B42F22EA606600F606E9 /* Home */,
+				CAD9B42722EA5F2F00F606E9 /* Common */,
 				CAD9B3F922EA5EFB00F606E9 /* AppDelegate.swift */,
-				CAD9B3FB22EA5EFB00F606E9 /* ViewController.swift */,
-				CAD9B3FD22EA5EFB00F606E9 /* Main.storyboard */,
 				CAD9B40022EA5EFC00F606E9 /* Assets.xcassets */,
 				CAD9B40222EA5EFC00F606E9 /* LaunchScreen.storyboard */,
 				CAD9B40522EA5EFC00F606E9 /* Info.plist */,
@@ -123,6 +194,117 @@
 				CAD9B41B22EA5EFC00F606E9 /* Info.plist */,
 			);
 			path = PabloResumeAppUITests;
+			sourceTree = "<group>";
+		};
+		CAD9B42722EA5F2F00F606E9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CAD9B45122EA8C5A00F606E9 /* Helpers */,
+				CAD9B43722EA68AF00F606E9 /* Fonts */,
+				CAD9B42822EA5F3B00F606E9 /* XibView.swift */,
+				CAD9B42B22EA600700F606E9 /* UIView+ConstraintsToFit.swift */,
+				CAD9B46722EAD20600F606E9 /* UIColor+ColorExtension.swift */,
+				CAD9B45422EA8E6500F606E9 /* GlobalConstants.swift */,
+				CAD9B47722EAEB6000F606E9 /* BackButton.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CAD9B42F22EA606600F606E9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CAD9B43022EA62EF00F606E9 /* HeaderView */,
+				CAD9B44222EA72C000F606E9 /* ResumeCell */,
+				CAD9B45922EA984D00F606E9 /* HomeModel.swift */,
+				CAD9B3FB22EA5EFB00F606E9 /* HomeViewController.swift */,
+				CAD9B42D22EA606100F606E9 /* HomeViewController.xib */,
+				CAD9B45B22EA9D6700F606E9 /* HomeConstants.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CAD9B43022EA62EF00F606E9 /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				CAD9B43122EA62FB00F606E9 /* HeaderView.swift */,
+				CAD9B43322EA630600F606E9 /* HeaderView.xib */,
+				CAD9B43522EA640700F606E9 /* HeaderViewViewModel.swift */,
+				CAD9B44022EA692300F606E9 /* HeaderViewConstants.swift */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		CAD9B43722EA68AF00F606E9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CAD9B43A22EA68BC00F606E9 /* Quicksand-Bold.ttf */,
+				CAD9B43922EA68BC00F606E9 /* Quicksand-Light.ttf */,
+				CAD9B43822EA68BC00F606E9 /* Quicksand-Medium.ttf */,
+				CAD9B43B22EA68BC00F606E9 /* Quicksand-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CAD9B44222EA72C000F606E9 /* ResumeCell */ = {
+			isa = PBXGroup;
+			children = (
+				CAD9B44322EA72D300F606E9 /* ResumeCell.swift */,
+				CAD9B44522EA72DF00F606E9 /* ResumeCell.xib */,
+				CAD9B44722EA7A4D00F606E9 /* ResumeCellViewModel.swift */,
+			);
+			path = ResumeCell;
+			sourceTree = "<group>";
+		};
+		CAD9B44922EA7DBC00F606E9 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				CAD9B44A22EA7DD100F606E9 /* DetailViewController.swift */,
+				CAD9B44D22EA7DF900F606E9 /* DetailViewController.xib */,
+				CAD9B45D22EAA88800F606E9 /* DetailModel.swift */,
+				CAD9B45F22EAA8F000F606E9 /* DetaileViewViewModel.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		CAD9B45122EA8C5A00F606E9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CAD9B44F22EA813E00F606E9 /* TransitionAnimation.swift */,
+				CAD9B45222EA8C6A00F606E9 /* AnimationsHelper.swift */,
+				CAD9B45622EA8E8E00F606E9 /* NetworkHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CAD9B46122EACACB00F606E9 /* Hello */ = {
+			isa = PBXGroup;
+			children = (
+				CAD9B46222EACAE400F606E9 /* HelloView.swift */,
+				CAD9B46422EACB0F00F606E9 /* HelloView.xib */,
+			);
+			path = Hello;
+			sourceTree = "<group>";
+		};
+		CAD9B46922EAD34300F606E9 /* CareerHistory */ = {
+			isa = PBXGroup;
+			children = (
+				CAD9B47222EADBCA00F606E9 /* CareerCell */,
+				CAD9B46A22EAD35700F606E9 /* CareerHistoryViewController.swift */,
+				CAD9B46C22EAD38F00F606E9 /* CareerHistoryViewController.xib */,
+				CAD9B46E22EAD56000F606E9 /* CareerHistoryModel.swift */,
+				CAD9B47022EAD56C00F606E9 /* CareerHistoryViewModel.swift */,
+				CAD9B47922EAEBF200F606E9 /* CareerHistoryConstants.swift */,
+			);
+			path = CareerHistory;
+			sourceTree = "<group>";
+		};
+		CAD9B47222EADBCA00F606E9 /* CareerCell */ = {
+			isa = PBXGroup;
+			children = (
+				CAD9B47322EADBDD00F606E9 /* CareerCell.swift */,
+				CAD9B47522EADBED00F606E9 /* CareerCell.xib */,
+			);
+			path = CareerCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +411,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAD9B43E22EA68BC00F606E9 /* Quicksand-Bold.ttf in Resources */,
 				CAD9B40422EA5EFC00F606E9 /* LaunchScreen.storyboard in Resources */,
 				CAD9B40122EA5EFC00F606E9 /* Assets.xcassets in Resources */,
-				CAD9B3FF22EA5EFB00F606E9 /* Main.storyboard in Resources */,
+				CAD9B46522EACB0F00F606E9 /* HelloView.xib in Resources */,
+				CAD9B43F22EA68BC00F606E9 /* Quicksand-Regular.ttf in Resources */,
+				CAD9B42E22EA606100F606E9 /* HomeViewController.xib in Resources */,
+				CAD9B44622EA72DF00F606E9 /* ResumeCell.xib in Resources */,
+				CAD9B43D22EA68BC00F606E9 /* Quicksand-Light.ttf in Resources */,
+				CAD9B44E22EA7DF900F606E9 /* DetailViewController.xib in Resources */,
+				CAD9B43422EA630600F606E9 /* HeaderView.xib in Resources */,
+				CAD9B43C22EA68BC00F606E9 /* Quicksand-Medium.ttf in Resources */,
+				CAD9B47622EADBED00F606E9 /* CareerCell.xib in Resources */,
+				CAD9B46D22EAD38F00F606E9 /* CareerHistoryViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +448,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAD9B3FC22EA5EFB00F606E9 /* ViewController.swift in Sources */,
+				CAD9B46F22EAD56000F606E9 /* CareerHistoryModel.swift in Sources */,
+				CAD9B45722EA8E8E00F606E9 /* NetworkHelper.swift in Sources */,
+				CAD9B46322EACAE400F606E9 /* HelloView.swift in Sources */,
+				CAD9B45322EA8C6A00F606E9 /* AnimationsHelper.swift in Sources */,
+				CAD9B47822EAEB6000F606E9 /* BackButton.swift in Sources */,
+				CAD9B46822EAD20600F606E9 /* UIColor+ColorExtension.swift in Sources */,
+				CAD9B46022EAA8F000F606E9 /* DetaileViewViewModel.swift in Sources */,
+				CAD9B44822EA7A4D00F606E9 /* ResumeCellViewModel.swift in Sources */,
+				CAD9B43622EA640700F606E9 /* HeaderViewViewModel.swift in Sources */,
+				CAD9B45C22EA9D6700F606E9 /* HomeConstants.swift in Sources */,
+				CAD9B47122EAD56C00F606E9 /* CareerHistoryViewModel.swift in Sources */,
+				CAD9B43222EA62FB00F606E9 /* HeaderView.swift in Sources */,
+				CAD9B3FC22EA5EFB00F606E9 /* HomeViewController.swift in Sources */,
+				CAD9B45522EA8E6500F606E9 /* GlobalConstants.swift in Sources */,
+				CAD9B47422EADBDD00F606E9 /* CareerCell.swift in Sources */,
+				CAD9B42922EA5F3B00F606E9 /* XibView.swift in Sources */,
+				CAD9B45A22EA984D00F606E9 /* HomeModel.swift in Sources */,
+				CAD9B46B22EAD35700F606E9 /* CareerHistoryViewController.swift in Sources */,
+				CAD9B47A22EAEBF200F606E9 /* CareerHistoryConstants.swift in Sources */,
+				CAD9B44422EA72D300F606E9 /* ResumeCell.swift in Sources */,
+				CAD9B42C22EA600700F606E9 /* UIView+ConstraintsToFit.swift in Sources */,
+				CAD9B44B22EA7DD100F606E9 /* DetailViewController.swift in Sources */,
+				CAD9B44122EA692300F606E9 /* HeaderViewConstants.swift in Sources */,
+				CAD9B45E22EAA88800F606E9 /* DetailModel.swift in Sources */,
+				CAD9B45022EA813E00F606E9 /* TransitionAnimation.swift in Sources */,
 				CAD9B3FA22EA5EFB00F606E9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,14 +509,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CAD9B3FD22EA5EFB00F606E9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CAD9B3FE22EA5EFB00F606E9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CAD9B40222EA5EFC00F606E9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

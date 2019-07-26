@@ -12,10 +12,15 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var homeViewController: HomeViewController?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        homeViewController = HomeViewController(nibName: String(describing: HomeViewController.self), bundle: nil)
+        let navigationController = UINavigationController(rootViewController: homeViewController!)
+        navigationController.navigationBar.isTranslucent = true
+        window?.rootViewController = navigationController
+        window?.makeKeyAndVisible()
         return true
     }
 

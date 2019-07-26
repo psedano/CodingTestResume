@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="PabloResumeApp" customModuleProvider="target">
+            <connections>
+                <outlet property="headerView" destination="X85-wE-T8c" id="sbj-0m-WFe"/>
+                <outlet property="helloView" destination="KfL-Ty-TjD" id="zYy-ON-eXx"/>
+                <outlet property="resumeSections" destination="a4e-m1-Gps" id="Eoa-GK-WNV"/>
+                <outlet property="view" destination="iN0-l3-epB" id="ViT-PJ-vXK"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X85-wE-T8c" customClass="HeaderView" customModule="PabloResumeApp" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="44" width="414" height="200"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="vNB-HR-If6"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="a4e-m1-Gps">
+                    <rect key="frame" x="20" y="264" width="374" height="618"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KfL-Ty-TjD" customClass="HelloView" customModule="PabloResumeApp" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="KfL-Ty-TjD" secondAttribute="bottom" id="2fl-Ra-PzJ"/>
+                <constraint firstItem="X85-wE-T8c" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="Owe-HL-bCF"/>
+                <constraint firstItem="a4e-m1-Gps" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" constant="20" id="Rz9-wq-7F6"/>
+                <constraint firstItem="X85-wE-T8c" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="UwW-ih-1Nk"/>
+                <constraint firstItem="a4e-m1-Gps" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="WeK-pk-SeW"/>
+                <constraint firstItem="a4e-m1-Gps" firstAttribute="top" secondItem="X85-wE-T8c" secondAttribute="bottom" constant="20" id="Yui-W4-FRq"/>
+                <constraint firstItem="KfL-Ty-TjD" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="aNS-gv-kzX"/>
+                <constraint firstItem="KfL-Ty-TjD" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="e0R-p6-N7U"/>
+                <constraint firstItem="X85-wE-T8c" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="gRf-9i-f2s"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="a4e-m1-Gps" secondAttribute="trailing" constant="20" id="odt-Pn-JpV"/>
+                <constraint firstItem="KfL-Ty-TjD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="vIo-E5-5Ch"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="47.826086956521742" y="35.491071428571423"/>
+        </view>
+    </objects>
+</document>
